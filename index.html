@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Premium Headphones | SonicWave Pro</title>
+  <link rel="stylesheet" href="styles.css"/>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <header id="header">
+    <div class="logo-container">
+      <!-- SonicWave logo from Vecteezy -->
+      <img
+        id="header-img"
+        src="https://static.vecteezy.com/system/resources/previews/009/929/979/original/sonic-wave-logo-sonic-wave-logo-free-vector.jpg"
+        alt="SonicWave Pro Logo"
+        style="height: 60px;"
+      />
+      <h1>SonicWave Pro</h1>
+    </div>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#how-it-works">How It Works</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Premium Wireless Headphones</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required/>
+        <input type="submit" id="submit" value="Get Started"/>
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <div class="icon"><i class="fas fa-music"></i></div>
+        <div class="description">
+          <h3>Premium Sound Quality</h3>
+          <p>Experience crystal clear highs and deep, rich bass with our advanced audio technology.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fas fa-battery-full"></i></div>
+        <div class="description">
+          <h3>Long Battery Life</h3>
+          <p>Enjoy up to 40 hours of continuous playback on a single charge.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fas fa-headphones-alt"></i></div>
+        <div class="description">
+          <h3>Comfortable Fit</h3>
+          <p>Memory foam ear cushions provide all-day comfort for extended listening sessions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+      <div class="product">
+        <h3>SonicWave Lite</h3>
+        <p class="price">$99</p>
+        <ul>
+          <li>20hr battery life</li>
+          <li>Basic sound quality</li>
+          <li>On-ear design</li>
+        </ul>
+        <button>Select</button>
+      </div>
+      <div class="product">
+        <h3>SonicWave Pro</h3>
+        <p class="price">$199</p>
+        <ul>
+          <li>40hr battery life</li>
+          <li>Premium sound quality</li>
+          <li>Noise cancellation</li>
+        </ul>
+        <button>Select</button>
+      </div>     
+      <div class="product">
+        <h3>SonicWave Max</h3>
+        <p class="price">$299</p>
+        <ul>
+          <li>50hr battery life</li>
+          <li>Hi-Res audio</li>
+          <li>Premium materials</li>
+        </ul>
+        <button>Select</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 SonicWave Pro. All rights reserved.</p>
+    <p>Logo by <a href="https://www.vecteezy.com">Vecteezy</a></p>
+  </footer>
+</body>
+</html>
